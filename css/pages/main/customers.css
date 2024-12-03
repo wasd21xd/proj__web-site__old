@@ -1,0 +1,51 @@
+.customers__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.arrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.img__customers{
+    width: 554px;
+    height: auto;
+    margin-top: 80px;
+    
+}
+
+.img__arrow1{
+    padding-right: 16px;
+    margin-top: 110px;
+}
+
+.img__arrow2{
+    margin-top: 110px;
+}
+
+.customers__revue{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 40px;
+}
+
+.first__revue{
+padding-right: 20px;
+}
+
+
+.third__revue{
+padding-left: 20px;
+}
+
+.foured__revue{
+padding-left: 20px;
+}
+
+.fived__revue{
+padding-left: 20px;
+}

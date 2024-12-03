@@ -1,0 +1,47 @@
+.email__footer{
+    width: 1240px;
+    height: 180px;
+    border-radius: 20px;
+    background-color: black;
+   
+
+   
+}
+
+.img__footer{
+    padding-top: 43px;
+    padding-left: 64px;
+   
+}
+
+/* .form__footer{
+    display: flex;
+    flex-direction: row;
+    
+    padding-left: 100px;
+    padding-bottom: 200px;
+
+}
+
+.email1__footer{
+width: 349px;
+height: 48px;
+background-color: white;
+border-radius: 62px;
+
+
+}
+
+.button__footer{
+width: 349px;
+height: 48px;
+background-color: white;
+border-radius: 62px;
+} */
+
+.section__footer{
+    width: 1440px;
+height: 499px;
+
+background-color: #f0f0f0;
+}

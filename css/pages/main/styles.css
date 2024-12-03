@@ -1,0 +1,43 @@
+.style{
+width: 1239px;
+height: 866px;
+border-radius: 40px;
+background: #F0F0F0;
+margin-top: 80px;
+margin-left: 100px;
+}
+
+.img__style__main{
+    width: 687px;
+    height: auto;
+    margin-top: 70px;
+    margin-left: 276px;
+}
+
+.casual__style{
+    width: 407px;
+    height: 289px;
+    margin-top: 64px;
+    margin-left: 64px;
+}
+
+.formal__style{
+    width: 684px;
+    height: 289px;
+    padding-left: 20px;
+    margin-top: 64px;
+}
+
+.party__style{
+    width: 684px;
+    height: 289px;
+    margin-left: 64px;
+    padding-top: 20px;
+}
+
+.gym__style{
+    width: 407px;
+    height: 289px;
+    padding-left: 20px;
+    padding-top: 20px;
+}

@@ -1,0 +1,67 @@
+.img__arrivals1{
+    margin-top: 72px;
+    padding-left: 400px;
+}
+
+.img__arrivals{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 55px;
+}
+
+.img__arrivals__main{
+    width: 295px;
+    height: 298px;
+    border-radius: 20px;
+}
+
+.p__arrivals{
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.stars__arrival{
+    width: 150px;
+    height: 19px;
+}
+
+.block__arrivals1__cost{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.5;
+}
+
+.button__arrivals{
+width: 218px;
+height: 52px;
+border-radius: 62px;
+border: 1px solid #0000001A;
+margin-left: 500px;
+margin-top: 36px;
+
+
+
+}
+
+.button__arrivals::placeholder{
+    color: black;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    font-family: Satoshi;
+    font-size: 16px;
+}
+
+.img__arrivals2{
+    margin-top: 72px;
+    margin-left: 430px;
+    border-top: 1px solid black;
+   
+    padding-top: 64px;
+    
+}
