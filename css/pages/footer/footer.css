@@ -1,47 +1,150 @@
-.email__footer{
-    width: 1240px;
-    height: 180px;
-    border-radius: 20px;
-    background-color: black;
-   
-
-   
+/* Общие стили для футера */
+.footer {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    color: #333;
 }
 
-.img__footer{
-    padding-top: 43px;
-    padding-left: 64px;
-   
-}
-
-/* .form__footer{
+.footer__container {
     display: flex;
-    flex-direction: row;
-    
-    padding-left: 100px;
-    padding-bottom: 200px;
-
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 }
 
-.email1__footer{
-width: 349px;
-height: 48px;
-background-color: white;
-border-radius: 62px;
-
-
+/* Секция подписки на рассылку */
+.email__footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 30px;
 }
 
-.button__footer{
-width: 349px;
-height: 48px;
-background-color: white;
-border-radius: 62px;
-} */
+.email__footer img {
+    width: 80%;
+    margin-bottom: 20px;
+}
 
-.section__footer{
-    width: 1440px;
-height: 499px;
+.form__footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
 
-background-color: #f0f0f0;
+.email1__footer,
+.button__footer {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.email1__footer {
+    flex: 2;
+}
+
+.button__footer {
+    flex: 1;
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Логотип и описание */
+.section__footer {
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.shop__footer {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.shop__footer img {
+    width: 150px;
+    margin-bottom: 10px;
+}
+
+.text__footer {
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+/* Ссылки в колонках */
+.ul__text {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.li__main {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.li__text {
+    font-size: 14px;
+    margin-bottom: 8px;
+    cursor: pointer;
+}
+
+.li__text:hover {
+    text-decoration: underline;
+}
+
+/* Социальные сети */
+.web__footer {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.web__footer img {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.web__footer img:hover {
+    opacity: 0.8;
+}
+
+/* Копирайт и значки платежей */
+.footer__footer {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 14px;
+    color: #666;
+}
+
+.ul__footer {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.img__footer__footer {
+    width: 50px;
+    height: auto;
 }
